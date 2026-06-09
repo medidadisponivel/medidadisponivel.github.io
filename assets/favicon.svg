@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Medida Disponível">
+  <rect width="64" height="64" rx="13" fill="#2b2018"/>
+  <g fill="none" stroke="#d2a679" stroke-linecap="round" stroke-linejoin="round">
+    <!-- braço do esquadro -->
+    <path d="M17 14 V50 H53" stroke-width="5"/>
+    <!-- marcas de medição -->
+    <g stroke-width="3" opacity="0.95">
+      <path d="M25 43 V50"/>
+      <path d="M33 38 V50"/>
+      <path d="M41 33 V50"/>
+    </g>
+    <!-- diagonal de precisão -->
+    <path d="M17 14 L53 50" stroke="#a9743f" stroke-width="3" opacity="0.9"/>
+    <!-- vértice -->
+    <circle cx="17" cy="14" r="3.4" fill="#d2a679" stroke="none"/>
+  </g>
+</svg>
