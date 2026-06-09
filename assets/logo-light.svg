@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286 60" width="286" height="60" role="img" aria-label="Medida Disponível">
+  <!--
+    Logótipo Medida Disponível — versão para fundos ESCUROS (rodapé).
+    Texto claro + acentos de madeira clara.
+  -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 11 V49 H50" stroke="#d9b485" stroke-width="3.4"/>
+    <g stroke="#d9b485" stroke-width="2" opacity="0.9">
+      <path d="M19 43 V49"/>
+      <path d="M27 39 V49"/>
+      <path d="M35 35 V49"/>
+      <path d="M43 31 V49"/>
+    </g>
+    <path d="M12 11 L50 49" stroke="#c4894d" stroke-width="2.2" opacity="0.85"/>
+    <circle cx="12" cy="11" r="2.6" fill="#d9b485" stroke="none"/>
+  </g>
+  <text x="66" y="28" font-family="Georgia, 'Times New Roman', serif" font-size="21" letter-spacing="0.4" fill="#f7efe3" font-weight="bold">Medida</text>
+  <text x="66" y="49" font-family="Georgia, 'Times New Roman', serif" font-size="21" letter-spacing="0.4" fill="#d9b485">Disponível</text>
+</svg>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medida Disponível — Carpintaria à medida | Proença-a-Nova</title>
+  <meta name="description" content="Carpintaria Medida Disponível: mobiliário por medida, cozinhas, roupeiros, portas e janelas, restauro. Proença-a-Nova, Castelo Branco.">
+  <meta name="theme-color" content="#faf6ef">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fontes opcionais; se falharem, há fallback para Georgia/system-ui. -->
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=18">
+</head>
+<body>
+  <a class="skip-link" href="#hero">Saltar para o conteúdo</a>
+
+  <!-- ============== SPLASH DE ENTRADA (gerido por JS) ==============
+       Sem JS este elemento não existe (é injetado em script.js), pelo que
+       a página nunca fica permanentemente coberta. -->
+
+
+  <header class="navbar" id="topo">
+    <a href="#topo" class="navbar__logo" aria-label="Medida Disponível — início">
+      <img src="assets/logo.svg" alt="Medida Disponível" height="40">
+    </a>
+    <button class="navbar__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="navbar__nav" id="menu-principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#parcerias">Parcerias</a>
+      <a href="#contactos">Contactos</a>
+      <a href="https://wa.me/351966576530" class="btn btn--accent navbar__cta">Orçamento</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ====================== HERO ====================== -->
+    <section class="hero" id="hero">
+      <div class="hero__grain" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <p class="eyebrow">Carpintaria artesanal · Proença-a-Nova</p>
+        <h1 class="hero__title">A madeira certa,<br><span class="accent">na medida certa.</span></h1>
+        <p class="hero__lead">Mobiliário por medida, cozinhas, roupeiros, portas e janelas. Trabalho artesanal com acabamento de excelência, do primeiro esboço à montagem final.</p>
+        <div class="hero__cta">
+          <a href="https://wa.me/351966576530" class="btn btn--accent">Pedir orçamento</a>
+          <a href="#trabalhos" class="btn btn--ghost">Ver trabalhos</a>
+        </div>
+        <ul class="hero__meta" aria-label="Resumo">
+          <li><span class="hero__meta-num">2000</span> Artesãos desde</li>
+          <li><span class="hero__meta-num">100%</span> À medida</li>
+          <li><span class="hero__meta-num">Castelo&nbsp;Branco</span> Proença-a-Nova</li>
+        </ul>
+      </div>
+      <a class="hero__scroll" href="#servicos" aria-label="Descer para os serviços">
+        <span class="hero__scroll-txt">Descobrir</span>
+        <span class="hero__scroll-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </span>
+      </a>
+    </section>
+
+    <!-- ==================== SERVIÇOS ==================== -->
+    <section class="servicos" id="servicos">
+      <div class="section__head reveal">
+        <p class="eyebrow">O que fazemos</p>
+        <h2>Serviços</h2>
+        <p class="section__sub">Soluções completas em madeira, pensadas e executadas para durar.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card-srv reveal reveal--stagger">
+          <span class="card-srv__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18M3 9v10h18V9M3 9l3-5h12l3 5M9 9v10M15 9v10"/></svg>
+          </span>
+          <h3>Mobiliário por medida</h3>
+          <p>Peças únicas pensadas para o seu espaço, do design à instalação.</p>
+        </article>
+        <article class="card-srv reveal reveal--stagger">
+          <span class="card-srv__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 12h18M9 4v8M15 12v8"/><path d="M6 8h.01M12 16h.01"/></svg>
+          </span>
+          <h3>Cozinhas</h3>
+          <p>Cozinhas funcionais e duradouras, desenhadas à sua medida.</p>
+        </article>
+        <article class="card-srv reveal reveal--stagger">
+          <span class="card-srv__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M12 3v18"/><path d="M9 12h.01M15 12h.01"/></svg>
+          </span>
+          <h3>Roupeiros</h3>
+          <p>Soluções de arrumação que aproveitam cada canto disponível.</p>
+        </article>
+        <article class="card-srv reveal reveal--stagger">
+          <span class="card-srv__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M12 3v18M3 12h18"/></svg>
+          </span>
+          <h3>Portas &amp; Janelas</h3>
+          <p>Caixilharia e portas em madeira, com montagem incluída.</p>
+        </article>
+        <article class="card-srv reveal reveal--stagger">
+          <span class="card-srv__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg>
+          </span>
+          <h3>Carpintaria de obra</h3>
+          <p>Trabalhos de carpintaria para construção e remodelação.</p>
+        </article>
+        <article class="card-srv reveal reveal--stagger">
+          <span class="card-srv__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 1-5.3 5.3L4 17v3h3l5.4-5.4a4 4 0 0 0 5.3-5.3l-2.2 2.2-2.1-.6-.6-2.1z"/></svg>
+          </span>
+          <h3>Restauro</h3>
+          <p>Recuperação e restauro de peças e estruturas em madeira.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== TRABALHOS =================== -->
+    <section class="trabalhos" id="trabalhos">
+      <div class="section__head reveal">
+        <p class="eyebrow">Portfólio</p>
+        <h2>Trabalhos</h2>
+        <p class="section__sub">Uma amostra do que sai da oficina.</p>
+        <!-- PLACEHOLDERS: imagens de stock (Unsplash) — substituir os src por
+             fotos reais guardadas em assets/ (ex.: src="assets/cozinha.jpg"). -->
+      </div>
+      <div class="grid grid--gallery">
+        <figure class="shot reveal reveal--stagger"><button type="button" class="shot__btn" aria-label="Ampliar: Trabalho de carpintaria"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=70&auto=format&fit=crop" alt="Trabalho de carpintaria" loading="lazy"></button></figure>
+        <figure class="shot reveal reveal--stagger"><button type="button" class="shot__btn" aria-label="Ampliar: Mobiliário em madeira"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=70&auto=format&fit=crop" alt="Mobiliário em madeira" loading="lazy"></button></figure>
+        <figure class="shot reveal reveal--stagger"><button type="button" class="shot__btn" aria-label="Ampliar: Cozinha em madeira"><img src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=900&q=70&auto=format&fit=crop" alt="Cozinha em madeira" loading="lazy"></button></figure>
+        <figure class="shot reveal reveal--stagger"><button type="button" class="shot__btn" aria-label="Ampliar: Interior com mobiliário"><img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=900&q=70&auto=format&fit=crop" alt="Interior com mobiliário" loading="lazy"></button></figure>
+        <figure class="shot reveal reveal--stagger"><button type="button" class="shot__btn" aria-label="Ampliar: Pormenor de marcenaria"><img src="https://images.unsplash.com/photo-1611021061285-3e15b4f9c2c1?w=900&q=70&auto=format&fit=crop" alt="Pormenor de marcenaria" loading="lazy"></button></figure>
+        <figure class="shot reveal reveal--stagger"><button type="button" class="shot__btn" aria-label="Ampliar: Oficina de carpintaria"><img src="https://images.unsplash.com/photo-1604578762246-41134e37f9cc?w=900&q=70&auto=format&fit=crop" alt="Oficina de carpintaria" loading="lazy"></button></figure>
+      </div>
+    </section>
+
+    <!-- ====================== SOBRE ===================== -->
+    <section class="sobre" id="sobre">
+      <div class="sobre__inner reveal">
+        <div class="sobre__txt">
+          <p class="eyebrow">Quem somos</p>
+          <h2>Artesãos da madeira desde 2000</h2>
+          <p>A Medida Disponível é uma carpintaria em Proença-a-Nova, Castelo Branco, dedicada a transformar madeira em soluções à medida de cada cliente. Damos atenção ao detalhe e ao acabamento, do primeiro esboço à montagem final.</p>
+          <p>Fundada e dirigida por <strong>Jorge Manuel Silva da Mata</strong>, mantém uma equipa pequena e um trabalho próximo e personalizado — cada projeto é tratado como único.</p>
+        </div>
+        <ul class="sobre__factos">
+          <li><strong>2000</strong><span>Artesãos desde</span></li>
+          <li><strong>À medida</strong><span>Cada projeto</span></li>
+          <li><strong>Proença-a-Nova</strong><span>Castelo Branco</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== PARCERIAS =================== -->
+    <section class="parcerias" id="parcerias">
+      <div class="section__head reveal">
+        <p class="eyebrow">Marcas de confiança</p>
+        <h2>Parcerias</h2>
+        <p class="section__sub">Trabalhamos com marcas de referência em ferramentas, ferragens e materiais.</p>
+      </div>
+      <!-- Carrossel automático. PLACEHOLDERS: cada ".parceiro" mostra o nome da
+           marca. Para usar o logótipo real, substitui o texto por uma imagem:
+           <span class="parceiro"><img src="assets/bosch.svg" alt="Bosch"></span> -->
+      <div class="marquee reveal" aria-label="Marcas parceiras">
+        <div class="marquee__track">
+          <!-- conjunto 1 -->
+          <span class="parceiro"><img src="assets/logos/berner-t.png" alt="Berner"></span>
+          <span class="parceiro"><img src="assets/logos/bosch.svg" alt="Bosch"></span>
+          <span class="parceiro"><img src="assets/logos/lokimat-t.png" alt="Lokimat"></span>
+          <span class="parceiro"><img src="assets/logos/balbino-faustino-t.png" alt="Balbino & Faustino"></span>
+          <span class="parceiro"><img src="assets/logos/milwaukee.png" alt="Milwaukee"></span>
+          <!-- conjunto 2 (duplicado para o loop ser contínuo) -->
+          <span class="parceiro" aria-hidden="true"><img src="assets/logos/berner-t.png" alt=""></span>
+          <span class="parceiro" aria-hidden="true"><img src="assets/logos/bosch.svg" alt=""></span>
+          <span class="parceiro" aria-hidden="true"><img src="assets/logos/lokimat-t.png" alt=""></span>
+          <span class="parceiro" aria-hidden="true"><img src="assets/logos/balbino-faustino-t.png" alt=""></span>
+          <span class="parceiro" aria-hidden="true"><img src="assets/logos/milwaukee.png" alt=""></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACTOS =================== -->
+    <section class="contactos" id="contactos">
+      <div class="section__head reveal">
+        <p class="eyebrow">Fale connosco</p>
+        <h2>Contactos</h2>
+        <p class="section__sub">Conte-nos o que precisa — respondemos com gosto.</p>
+      </div>
+      <div class="contactos__grid reveal">
+        <div class="contactos__acoes">
+          <a class="btn btn--accent btn--block" href="https://wa.me/351966576530">WhatsApp</a>
+          <a class="btn btn--ghost btn--block" href="tel:+351966576530">Telefonar</a>
+          <a class="btn btn--ghost btn--block" target="_blank" rel="noopener" href="https://mail.google.com/mail/?view=cm&fs=1&to=medidadisponivel@gmail.com">Email</a>
+          <address class="contactos__morada">
+            Rua da Fonte Velha nº 11<br>
+            6150-342 Proença-a-Nova, Castelo Branco
+          </address>
+        </div>
+        <div class="contactos__mapa">
+          <iframe
+            title="Mapa — Medida Disponível Unipessoal, Lda, Proença-a-Nova"
+            src="https://www.google.com/maps?q=Medida+Dispon%C3%ADvel+Unipessoal,+Lda+Rua+da+Fonte+Velha+11+Proen%C3%A7a-a-Nova&ll=39.7830902,-7.9512039&z=16&output=embed"
+            width="100%" height="320" style="border:0" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="mapa__acoes">
+            <a class="btn btn--ghost" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/search/?api=1&query=Medida%20Dispon%C3%ADvel%20Unipessoal%2C%20Lda%2C%20Rua%20da%20Fonte%20Velha%2011%2C%20Proen%C3%A7a-a-Nova">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M19 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h5"/></svg>
+              Abrir no Google Maps
+            </a>
+            <a class="btn btn--accent" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/dir/?api=1&destination=39.7830902,-7.9512039">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
+              Como chegar
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====================== RODAPÉ ==================== -->
+  <footer class="rodape">
+    <div class="rodape__inner">
+      <img src="assets/logo-light.svg" alt="Medida Disponível" height="34" class="rodape__logo">
+      <p><strong>Medida Disponível Unipessoal Lda</strong> · NIF 515889857</p>
+      <p>Rua da Fonte Velha nº 11, 6150-342 Proença-a-Nova · <a href="tel:+351966576530">+351 966 576 530</a> · <a target="_blank" rel="noopener" href="https://mail.google.com/mail/?view=cm&fs=1&to=medidadisponivel@gmail.com">medidadisponivel@gmail.com</a></p>
+      <p class="rodape__copy">© <span id="ano"></span> Medida Disponível. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ============== CTA flutuante (apenas em ecrãs pequenos) ============== -->
+  <a class="fab-cta" href="https://wa.me/351966576530" aria-label="Pedir orçamento via WhatsApp">
+    <span class="fab-cta__ico" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.4 8.5 8.5 0 0 1-3.9-.9L3 20.5l1.6-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+    </span>
+    <span class="fab-cta__txt">Orçamento</span>
+  </a>
+
+  <!-- ============== Lightbox da galeria (gerido por JS) ============== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" hidden>
+    <div class="lightbox__backdrop" data-lb-close></div>
+    <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+      <button type="button" class="lightbox__btn lightbox__close" data-lb-close aria-label="Fechar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <button type="button" class="lightbox__btn lightbox__prev" data-lb-prev aria-label="Imagem anterior">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <figure class="lightbox__figure">
+        <img class="lightbox__img" id="lightbox-img" src="" alt="">
+        <figcaption class="lightbox__cap" id="lightbox-cap"></figcaption>
+      </figure>
+      <button type="button" class="lightbox__btn lightbox__next" data-lb-next aria-label="Imagem seguinte">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js?v=4"></script>
+</body>
+</html>
